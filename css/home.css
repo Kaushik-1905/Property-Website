@@ -1,3 +1,59 @@
-h1{
-    color: blueviolet;
+/* ===============
+    Global CSS
+==================*/
+
+:root {
+    --dm: "DM Sans", sans-serif;
+    --jost: "Jost", sans-serif;
+    --skin:#B07E50;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* ===============
+    HEADER
+==================*/
+
+header{
+    padding: 20px 0; 
+    position: relative;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+}
+
+header ul li {
+    padding: 0px 10px;
+}
+
+header .image img{
+    width: 200px;
+}
+
+header a{
+    background-color: var(--skin);
+    padding: 4px 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--dm);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+header nav ul li{
+    color: white;
+    padding-top: 8px;
+    font: var(--dm);
+    font-size: 18px;
+    font-weight: 500;
 }
